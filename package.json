@@ -1,0 +1,14 @@
+{
+  "name": "dphotos",
+  "version": "1.0.0",
+  "description": "Decentralized solution to stock photo distribution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Bovard & Asier Yohannes",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0-beta.52"
+  }
+}
