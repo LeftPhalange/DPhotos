@@ -186,4 +186,4 @@ A month had passed, through so much determination and progress, this project was
 
 I look forward to seeing the Ethereum stack mature further and be more kind to aspiring developers, however this project inspired me to take my desktop-focused development a step further, and learn more jQuery, JavaScript (maybe TypeScript), and strengthen my CSS and HTML knowhow.
 
-- Ethan
+-- Ethan
