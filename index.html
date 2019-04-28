@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DPhotos - Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="narrow-jumbotron.css" rel="stylesheet">
+  <script
+    src="https://code.jquery.com/jquery-3.4.0.js"
+    integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+    crossorigin="anonymous"></script>
+  </head>
+<body>
+  <div class="container" style="padding: 20px">
+    <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Gallery <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">DPhotos</h3>
+      </div>
+    </div>
+  <div class="jumbotron" align="center">
+    <h1>Here is a library of stock photos up for display.</h1>
+    <h4 id="accAddress"></h3>
+    <br />
+    <div class="card-group">
+      <div class="card" style="width: 18rem; display: flex;">
+        <img src="./assets/32716194821_5115481715_small.jpg" id="card-1-image" class="card-img-top" alt="Springtime in February">
+        <div class="card-body">
+          <h5 class="card-title" id="card-1-title">Springtime in February</h5>
+          <p class="card-text" id="card-1-desc">Taken at Georgia State University in February of 2017.</p>
+          <p align="center" id="ether_1"></p>
+          <button id="pbutton-1" class="btn btn-primary purchase-btn">Purchase</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; display: flex;">
+        <img src="./assets/32025085133_1c27a7f4e0_small.jpg" id="card-2-image" class="card-img-top" alt="Through Concrete">
+        <div class="card-body">
+          <h5 class="card-title" id="card-2-title">Through Concrete</h5>
+          <p class="card-text" id="card-2-desc">Taken at Georgia State University in February of 2017.</p>
+          <p align="center" id="ether_2"></p>
+          <button id="pbutton-2" class="btn btn-primary purchase-btn">Purchase</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; display: flex;">
+        <img src="./assets/32077057834_629722e347_small.jpg" id="card-3-image" class="card-img-top" alt="Cherry Blossoms">
+        <div class="card-body">
+          <h5 class="card-title" id="card-3-title">Cherry Blossoms</h5>
+          <p class="card-text" id="card-3-desc">Taken at Sugarloaf Mills in East Atlanta in 2017.</p>
+          <p align="center" id="ether_3"></p>
+          <button id="pbutton-3" class="btn btn-primary purchase-btn">Purchase</button>
+    </div>
+    </div>
+    <div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true"> <!-- Modal has its own ID, links up to app.js, it has its own event -->
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title">Purchase</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+          <p id="modal-message"></p>
+          <div class="card" style="width: 18rem; display: flex;">
+            <img src="./assets/32716194821_5115481715_small.jpg" id="card-modal-image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="card-modal-title">Springtime in February</h5>
+              <p class="card-text" id="card-modal-desc">Taken at Georgia State University in February of 2017.</p>
+              <p align="center" id="ether_1"></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" id="purchase-modal-button">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="/js/web3.min.js"></script>
+  </body>
+</html>

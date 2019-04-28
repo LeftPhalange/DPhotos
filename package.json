@@ -4,11 +4,19 @@
   "description": "Decentralized solution to stock photo distribution.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "author": "Ethan Bovard & Asier Yohannes",
   "license": "ISC",
   "dependencies": {
+    "@uppy/core": "^0.30.4",
+    "express-fileupload": "^1.1.4",
+    "filepond": "^4.4.0",
+    "truffle": "^5.0.14",
     "web3": "^1.0.0-beta.52"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0"
   }
 }
