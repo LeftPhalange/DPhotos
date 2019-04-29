@@ -135,7 +135,7 @@ App.Photo = PhotoContract.at('0xb39dbaB42C49bA50d58E9c155229A076EC43Ed77');
 This is the deployed contract address. From the above 2_deploy_contracts.js clause, where the contract address line is, that hex value should be put into PhotoContract.at() as a parameter, leaving us with:
 
 ```
-App.Photo = PhotoContract.at('0x0BC9ebDE9dCAC944CAEB336ABb47dE918B09FE70');
+App.Photo = PhotoContract.at('new_contract_address_from_truffle');
 ```
 
 One last thing... take note of the account, and head over to line 216, and you should see something like this:
@@ -147,7 +147,7 @@ to: '0x9026F338795A28d3e1987FC22Af26b5660A4F88F'
 The deployed account hex should be replaced with what was deployed from the 2_deploy_contracts.js clause, and you should get something like:
 
 ```
-to: '0x9026F338795A28d3e1987FC22Af26b5660A4F88F'
+to: 'deployed_contract_account_address'
 ```
 
 You can also use a random contact address within your local blockchain that you deem fit as a recipient of the transactions going on in DPhotos.
