@@ -52,7 +52,7 @@ In your Terminal on UNIX, or on Windows respectively, run the following command:
 npm install -g truffle
 ```
 
-When you're done
+When you're done with that, you can use Truffle to compile the smart contract (especially helpful when you want to amend anything in there) and migrate it to your own blockchain, to ensure things will run smoothly.
 
 ### Install Metamask
 
