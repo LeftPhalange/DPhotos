@@ -8,8 +8,11 @@ DPhotos is a project made with jQuery, JavaScript, Truffle, Solidity, and Node (
 You will need the following:
 
 Node.js: https://nodejs.org | Browsersync (install lite-server)
+
 Ganache: https://truffleframework.com/ganache
+
 Metamask (or another browser that can perform Ethereum transactions): http://metamask.io
+
 Truffle (install globally, read in the instructions)
 
 ## What do I need to do to get this working?
