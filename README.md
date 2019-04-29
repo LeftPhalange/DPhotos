@@ -65,7 +65,7 @@ When you go through the registration process and you successfully create the wal
 
 ### Some remaining odds and ends...
 
-In your working directory, check your truffle-config.js and see if your RPC is set properly.
+In your working directory, check your truffle-config.js and see if your RPC is set properly. 127.0.0.1 is your localhost address, port by default is 7545. When you're running Ganache, see what IP and port it is broadcasting to. If your port is different from 7545, change it. For instance, if it's broadcasting with the port at 8545, change that 7545 to 8545, and vice versa.
 
 Also, run this command to get all packages in the directory:
 
